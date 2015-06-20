@@ -1,0 +1,39 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:android1="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_image" >
+
+    <ImageView
+        android1:id="@+id/imageView1"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_centerHorizontal="true"
+        android1:layout_centerVertical="true"
+        android1:contentDescription="@string/todo"
+        android1:src="@drawable/help" />
+
+    <ImageView
+        android1:id="@+id/imageView2"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignParentRight="true"
+        android1:layout_below="@+id/imageView1"
+        android1:layout_marginRight="32dp"
+        android:onClick="onBtnGotoMain"
+        android1:contentDescription="@string/todo"
+        android1:src="@drawable/string_img_back" />
+
+    <ImageView
+        android1:id="@+id/imageView3"
+        android1:layout_width="wrap_content"
+        android1:layout_height="wrap_content"
+        android1:layout_alignBottom="@+id/imageView2"
+        android1:layout_marginRight="28dp"
+        android1:layout_toLeftOf="@+id/imageView2"
+        android:onClick="onBtnSourceSiteToast"
+        android1:contentDescription="@string/todo"
+        android1:src="@drawable/string_img_source_site" />
+
+</RelativeLayout>

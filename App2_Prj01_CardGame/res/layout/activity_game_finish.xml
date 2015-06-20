@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_image" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="82dp"
+        android:text="@string/str_gameClear"
+        android:textColor="#ffffff"
+        android:textSize="35dp"
+        tools:context=".GameFinish" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginRight="56dp"
+        android:layout_marginTop="38dp"
+        android:onClick="onBtnInputName"
+        android:text="@string/btn_inputName_ok" />
+
+    <EditText
+        android:id="@+id/gameFinish_inputName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/button1"
+        android:layout_marginRight="30dp"
+        android:layout_toLeftOf="@+id/button1"
+        android:ems="10"
+        android:hint="@string/gameFinish_name" />
+
+</RelativeLayout>

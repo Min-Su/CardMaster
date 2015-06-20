@@ -1,0 +1,330 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_image"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_marginTop="15dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:text="@string/text_playTime"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView_playTime"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="35dp"
+            android:text="@string/text_score"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView_score"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="15dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp" >
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_f6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_s6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_t6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fiv6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_fo6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/ic_launcher" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_six1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/cardbackimage" />
+
+        <pe.km.menu.playing.Card
+            android:id="@+id/card_six2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="@dimen/card_marginLeft"
+            android:layout_marginTop="@dimen/card_marginTop"
+            android:src="@drawable/cardbackimage" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,79 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@drawable/backgrounds_image" >
+
+    <ImageView
+        android:id="@+id/game_start"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="130dp"
+        android:onClick="onBtnGameStart"
+        android:src="@drawable/gamestart_icon" />
+
+    <ImageView
+        android:id="@+id/game_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/game_start"
+        android:layout_marginRight="20dp"
+        android:onClick="onBtnRanking"
+        android:paddingTop="10dp"
+        android:src="@drawable/rank_icon" />
+
+    <ImageView
+        android:id="@+id/game_help"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/game_rank"
+        android:layout_marginRight="20dp"
+        android:onClick="onBtnHelp"
+        android:paddingTop="10dp"
+        android:src="@drawable/help_icon" />
+
+    <ImageView
+        android:id="@+id/game_exit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/game_help"
+        android:layout_marginRight="20dp"
+        android:onClick="onBtnExit"
+        android:paddingTop="10dp"
+        android:src="@drawable/exit_icon" />
+
+    <ImageView
+        android:id="@+id/game_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="80dp"
+        android:src="@drawable/game_title" />
+    
+    <CheckBox
+        android:id="@+id/backgroundsound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/game_exit"
+        android:layout_alignParentLeft="true"
+        android:checked="true"
+        android:text="@string/backgroundsound"
+        android:textColor="#eeee99" />
+
+    <CheckBox
+        android:id="@+id/effectsound"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/backgroundsound"
+        android:layout_alignBottom="@+id/game_exit"
+        android:checked="true"
+        android:onClick="checkedeffectsound"
+        android:text="@string/effectsound"
+        android:textColor="#eeee99" />
+
+
+</RelativeLayout>

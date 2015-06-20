@@ -1,0 +1,55 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/LinearLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgrounds_image"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str_name"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="160dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str_score"
+            android:textColor="#ffffff" />
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="150dip"
+            android:layout_height="wrap_content"
+            android:text="@string/str_clearTime"
+            android:textColor="#ffffff" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/rank_list"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:cacheColorHint="#00000000"
+        android:transcriptMode="alwaysScroll"
+        android:layout_weight="30" >
+    </ListView>
+
+    <ImageView
+        android:id="@+id/rank_btn_ok"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right"
+        android:contentDescription="@string/todo"
+        android:onClick="onBtnGoStartScreen"
+        android:src="@drawable/string_img_back"
+        android:layout_weight="1"/>
+
+</LinearLayout>
